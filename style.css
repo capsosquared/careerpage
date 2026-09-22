@@ -24,6 +24,9 @@ header{
 td{
     padding-right: 5px;
 }
+td:hover{
+    color: #B8D;
+}
 main{
     width: calc(100% - 40px);
     height: calc(100% - 170px);
