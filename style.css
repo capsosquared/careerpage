@@ -61,13 +61,13 @@ main{
 }
 aside{
     width: calc(40% - 30px);
-    min-width: 190px;
+    min-width: 170px;
     margin-right: 12px;
     float: left;
 }
 article{
     width: calc(60% - 30px);
-    min-width: 290px;
+    min-width: 270px;
     float: right;
 }
 footer{
