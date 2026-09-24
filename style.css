@@ -24,7 +24,32 @@ header{
 td{
     padding-right: 5px;
 }
-td:hover{
+.nav{
+    color: rgb(124 106 139);
+    text-align: center;
+    margin: auto;
+    font-size: 15px; 
+    width: 75%; 
+    height: 100%;
+}
+.arrow{
+    text-align: center; 
+    height: 0%;
+    color: #B8D;
+}
+.top{
+    padding-right: 0px; 
+    color: rgb(255 255 255);
+}
+.body{
+    color: rgb(255 255 255);
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    height: calc(100% - 20px);
+    background-color: rgb(66 57 78);
+}
+a:hover{
     color: #B8D;
 }
 main{
@@ -35,21 +60,15 @@ main{
     min-height: 500px;
 }
 aside{
-    width: calc(40% - 10px);
-    height: 100%;
-    background-color: rgb(66 57 78);
+    width: calc(40% - 30px);
     min-width: 190px;
-    border-radius: 20px;
-    margin-right: 20px;
+    margin-right: 12px;
     float: left;
 }
 article{
-    width: calc(60% - 10px);
-    height: 100%;
+    width: calc(60% - 30px);
     min-width: 290px;
     float: right;
-    background-color: rgb(66 57 78);
-    border-radius: 20px;
 }
 footer{
     height: 40px;
@@ -58,4 +77,15 @@ footer{
     border-radius: 20px;
     width: calc(100% - 40px);
     min-width: 500px;
+}
+a:link{
+    text-decoration: none;
+    color: rgb(124 106 139);
+}
+a:hover{
+    color: #B8D
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(124 106 139);
 }
